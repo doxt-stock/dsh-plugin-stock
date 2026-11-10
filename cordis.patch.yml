@@ -1,0 +1,4 @@
+# doxt-stock plugin — mounts the public ledger tools into the model-visible tool set.
+- insert:
+    - id: doxt-public-tools
+      name: doxt-stock

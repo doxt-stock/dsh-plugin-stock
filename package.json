@@ -1,0 +1,34 @@
+{
+  "name": "doxt-stock",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness (DSH) plugin — verifiable US-stock judgment data from doxt.com's public append-only ledger: judgments, real settled track record, hash-chain verification. Every citation carries its doxt.com ledger URL.",
+  "type": "module",
+  "main": "index.mjs",
+  "files": [
+    "index.mjs",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "stocks",
+    "finance",
+    "ai-judgments",
+    "verifiable",
+    "public-ledger"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doxt-stock/dsh-plugin-stock.git"
+  },
+  "homepage": "https://doxt.com",
+  "author": "Doxt <contact@doxt.com> (https://doxt.com)"
+}
